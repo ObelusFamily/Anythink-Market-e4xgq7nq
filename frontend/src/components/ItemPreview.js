@@ -29,7 +29,7 @@ const ItemPreview = (props) => {
     }
   };
 
-  const replaceImg = '/placeholder.png'
+  const replacer = '/placeholder.png'
 
   return (
     <div
@@ -38,7 +38,7 @@ const ItemPreview = (props) => {
     >
       <img
         alt="item"
-        src={item.image || replaceImg}
+        src={item.image || replacer}
         className="card-img-top item-img"
         style={{ borderRadius: "20px" }}
       />
