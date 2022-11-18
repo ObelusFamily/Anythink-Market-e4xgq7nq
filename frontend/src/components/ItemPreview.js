@@ -28,7 +28,7 @@ const ItemPreview = (props) => {
       props.favorite(item.slug);
     }
   };
-
+const fallback = '/placeholder.png'
   return (
     <div
       className="card bg-dark border-light p-3"
@@ -36,7 +36,7 @@ const ItemPreview = (props) => {
     >
       <img
         alt="item"
-        src={item.image}
+        src={item.image || fallback}
         className="card-img-top item-img"
         style={{ borderRadius: "20px" }}
       />
