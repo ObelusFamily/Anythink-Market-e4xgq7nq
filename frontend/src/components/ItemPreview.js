@@ -28,7 +28,7 @@ const ItemPreview = (props) => {
       props.favorite(item.slug);
     }
   };
-const fallback = '/placeholder.png'
+const fallback = "/placeholder.png"
   return (
     <div
       className="card bg-dark border-light p-3"
