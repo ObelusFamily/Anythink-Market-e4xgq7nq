@@ -9,9 +9,14 @@
     "@wojtekmaj/enzyme-adapter-react-17": "^0.6.7",
     "core-js": "^3.25.1",
     "enzyme": "^3.11.0",
+    "eslint": "^8.28.0",
     "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-react": "^7.26.1",
-    "prettier": "2.4.1",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-react": "^7.31.11",
+    "prettier": "^2.7.1",
     "react-test-renderer": "^17.0.2",
     "redux-mock-store": "^1.5.4"
   },
@@ -52,8 +57,7 @@
   },
   "eslintConfig": {
     "extends": [
-      "react-app",
-      "eslint:recommended"
+      "react-app"
     ],
     "rules": {
       "no-var": "error"
